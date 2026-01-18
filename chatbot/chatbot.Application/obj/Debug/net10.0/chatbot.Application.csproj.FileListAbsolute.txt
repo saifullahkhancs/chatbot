@@ -24,9 +24,9 @@ C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\c
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot.Application.AssemblyInfoInputs.cache
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot.Application.AssemblyInfo.cs
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot.Application.csproj.CoreCompileInputs.cache
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot.Application.sourcelink.json
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot..C3D3D3E7.Up2Date
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot.Application.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\refint\chatbot.Application.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot.Application.pdb
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\ref\chatbot.Application.dll
-C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Application\obj\Debug\net10.0\chatbot.Application.sourcelink.json

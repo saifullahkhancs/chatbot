@@ -17,6 +17,7 @@ C:\Users\hi\Desktop\Saif\Learning\chatbot\chatbot.Infrastructure\obj\Debug\net10
 C:\Users\hi\Desktop\Saif\Learning\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.pdb
 C:\Users\hi\Desktop\Saif\Learning\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\ref\chatbot.Infrastructure.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\bin\Debug\net10.0\chatbot.Infrastructure.deps.json
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\bin\Debug\net10.0\chatbot.Infrastructure.runtimeconfig.json
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\bin\Debug\net10.0\chatbot.Infrastructure.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\bin\Debug\net10.0\chatbot.Infrastructure.pdb
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\bin\Debug\net10.0\chatbot.Application.dll
@@ -28,9 +29,10 @@ C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.AssemblyInfo.cs
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.sourcelink.json
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot..9A2A6850.Up2Date
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\refint\chatbot.Infrastructure.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.pdb
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.genruntimeconfig.cache
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\ref\chatbot.Infrastructure.dll
-C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.sourcelink.json
