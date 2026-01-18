@@ -33,3 +33,4 @@ C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\refint\chatbot.Infrastructure.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.pdb
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\ref\chatbot.Infrastructure.dll
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Infrastructure\obj\Debug\net10.0\chatbot.Infrastructure.sourcelink.json

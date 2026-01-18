@@ -21,3 +21,4 @@ C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Domain\obj\Debug\net10.0\chatbo
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Domain\obj\Debug\net10.0\refint\chatbot.Domain.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Domain\obj\Debug\net10.0\chatbot.Domain.pdb
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Domain\obj\Debug\net10.0\ref\chatbot.Domain.dll
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Domain\obj\Debug\net10.0\chatbot.Domain.sourcelink.json

@@ -1,71 +1,35 @@
 using chatbot.Application.Interfaces;
 using chatbot.Domain.Entities;
 
-namespace chatbot.Application.UseCases.Users;
+namespace chatbot.Application.Services;
 
-public class CreateUser
+public class UserService : IUserService
 {
-    private readonly IUserRepository _repo;
+    private readonly IUserRepository _repository;
 
-    public CreateUser(IUserRepository repo)
+    public UserService(IUserRepository repository)
     {
-        _repo = repo;
+        _repository = repository;
     }
 
-    public async Task Execute(string name, string email)
+    public async Task AddAsync(User user)
     {
-        var user = new User
-        {
-            Id = Guid.NewGuid(),
-            Name = name,
-            Email = email
-        };
-
-        await _repo.AddAsync(user);
-    }
-}
-
-public class GetUsers
-{
-    private readonly IUserRepository _repo;
-
-    public GetUsers(IUserRepository repo)
-    {
-        _repo = repo;
+        user.Id = Guid.NewGuid();
+        await _repository.AddAsync(user);
     }
 
-    public List<User> Execute()
+    public List<User> GetAll()
     {
-        return _repo.GetAll();
-    }
-}
-
-public class UpdateUser
-{
-    private readonly IUserRepository _repo;
-
-    public UpdateUser(IUserRepository repo)
-    {
-        _repo = repo;
+        return _repository.GetAll();
     }
 
-    public async Task Execute(User user)
+    public async Task UpdateAsync(User user)
     {
-        await _repo.UpdateAsync(user);
-    }
-}
-
-public class DeleteUser
-{
-    private readonly IUserRepository _repo;
-
-    public DeleteUser(IUserRepository repo)
-    {
-        _repo = repo;
+        await _repository.UpdateAsync(user);
     }
 
-    public async Task Execute(Guid id)
+    public async Task DeleteAsync(Guid id)
     {
-        await _repo.DeleteAsync(id);
+        await _repository.DeleteAsync(id);
     }
 }
