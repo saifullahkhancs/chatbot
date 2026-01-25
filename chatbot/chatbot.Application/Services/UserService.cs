@@ -32,4 +32,9 @@ public class UserService : IUserService
     {
         await _repository.DeleteAsync(id);
     }
+
+    public async Task<User?> GetByEmailAsync(string email)
+    {
+        return await _repository.GetByEmailAsync(email);
+    }
 }
