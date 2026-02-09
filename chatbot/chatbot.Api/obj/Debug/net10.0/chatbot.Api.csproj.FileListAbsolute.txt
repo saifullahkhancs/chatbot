@@ -209,3 +209,4 @@ C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\obj\Debug\net10.0\refint\ch
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\obj\Debug\net10.0\chatbot.Api.pdb
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\obj\Debug\net10.0\chatbot.Api.genruntimeconfig.cache
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\obj\Debug\net10.0\ref\chatbot.Api.dll
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
