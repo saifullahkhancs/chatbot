@@ -52,6 +52,7 @@ C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\chatbot.A
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Azure.Identity.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Humanizer.dll
+C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\hi\Desktop\Saif\chatbot\chatbot\chatbot.Api\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
