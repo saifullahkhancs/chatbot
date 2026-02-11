@@ -1,6 +1,8 @@
 using chatbot.Application.Interfaces;
 using chatbot.Domain.Entities;
 using chatbot.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace chatbot.Infrastructure.Repositories;
 
@@ -37,5 +39,10 @@ public class UserRepository : IUserRepository
 
         _context.Users.Remove(user);
         await _context.SaveChangesAsync();
+    }
+
+    public async Task<User?> GetByEmailAsync(string email)
+    {
+        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
     }
 }
