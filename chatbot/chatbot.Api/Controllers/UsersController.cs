@@ -1,5 +1,6 @@
 using chatbot.Application.Interfaces;
 using chatbot.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace chatbot.Api.Controllers;
@@ -16,6 +17,8 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Roles = "Admin")]
+
     public IActionResult Get()
     {
         return Ok(_service.GetAll());

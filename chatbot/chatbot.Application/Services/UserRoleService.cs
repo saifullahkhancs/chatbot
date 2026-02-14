@@ -31,4 +31,9 @@ public class UserRoleService : IUserRoleService
     {
         await _repository.DeleteAsync(userId, roleId);
     }
+
+    public List<UserRole> GetByUserId(Guid userId)
+    {
+        return _repository.GetByUserId(userId);
+    }
 }
