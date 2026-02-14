@@ -33,6 +33,10 @@ builder.Services.AddScoped<IUserRoleService, UserRoleService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, JwtTokenService>();
 builder.Services.AddScoped<IPasswordHasher, AppPasswordHasher>();
+builder.Services.AddScoped<IChatService, ChatService>();
+builder.Services.AddScoped<IKnowledgeBaseService, KnowledgeBaseService>();
+builder.Services.AddScoped<IHRISService, HRISService>();
+builder.Services.AddScoped<ITicketService, TicketService>();
 builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters

@@ -13,6 +13,10 @@ public class AppDbContext : DbContext
     public DbSet<Permission> Permissions => Set<Permission>();
     public DbSet<UserRole> UserRoles => Set<UserRole>();
     public DbSet<RolePermission> RolePermissions => Set<RolePermission>();
+    public DbSet<ChatMessage> ChatMessages => Set<ChatMessage>();
+    public DbSet<ChatConversation> ChatConversations => Set<ChatConversation>();
+    public DbSet<Ticket> Tickets => Set<Ticket>();
+    public DbSet<KnowledgeBase> KnowledgeBases => Set<KnowledgeBase>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -25,5 +29,7 @@ public class AppDbContext : DbContext
 
         modelBuilder.Entity<RolePermission>()
             .HasKey(rp => new { rp.RoleId, rp.PermissionId });
+
+
     }
 }
