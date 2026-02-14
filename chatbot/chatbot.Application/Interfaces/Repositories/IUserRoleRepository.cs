@@ -8,4 +8,6 @@ public interface IUserRoleRepository
     List<UserRole> GetAll();
     Task<UserRole?> GetByIdAsync(Guid userId, Guid roleId);
     Task DeleteAsync(Guid userId, Guid roleId);
+    List<UserRole> GetByUserId(Guid userId);
+
 }

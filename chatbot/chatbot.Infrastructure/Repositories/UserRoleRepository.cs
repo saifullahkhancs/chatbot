@@ -38,4 +38,9 @@ public class UserRoleRepository : IUserRoleRepository
         _context.UserRoles.Remove(userRole);
         await _context.SaveChangesAsync();
     }
+
+    public List<UserRole> GetByUserId(Guid userId)
+    {
+        return _context.UserRoles.Where(ur => ur.UserId == userId).ToList();
+    }
 }

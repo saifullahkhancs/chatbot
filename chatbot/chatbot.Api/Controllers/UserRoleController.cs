@@ -45,4 +45,12 @@ public class UserRoleController : ControllerBase
         await _service.DeleteAsync(userId, roleId);
         return Ok();
     }
+
+    [HttpGet("{userId}")]
+    public IActionResult GetByUserId(Guid userId)
+    {
+        var userRoles = _service.GetByUserId(userId);
+        return Ok(userRoles);
+    }
+
 }
